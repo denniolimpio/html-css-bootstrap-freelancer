@@ -1,0 +1,70 @@
+body {
+  padding-top: 70px;
+
+}
+
+/* regole generali */
+a {
+  text-decoration: none;
+  color: white;
+}
+/* regole base */
+
+/* componenti */
+.ms_navbar {
+  background-color: #2c3e50;
+  color: white;
+
+}
+.ms_navbar h2 {
+  font-size: 1.2em;
+}
+.ms_jumbotron {
+  text-transform: uppercase;
+  padding: 32px 0;
+  text-align: center;
+}
+.ms_avatar img {
+  max-height: 250px;
+}
+
+.ms_portfolio {
+  text-align: center;
+}
+.ms_item-portfolio {
+  background-color: #ba4b63;
+  height: 300px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+}
+.ms_primary {
+  background-color: #1abc9c;
+  color: #fff;
+}
+.ms_about {
+  padding: 32px 0;
+}
+.ms_portfolio .ms_divider {
+  padding: 32px 0;
+}
+.ms_wrapper-60 {
+  width: 60%;
+  margin: 0 auto;
+}
+.ms_download-button {
+  display: inline-block;
+  border: 1px solid white;
+  background-color: #1abc9c;
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-size: 1em;
+}
+.ms_about .text-center {
+  padding-top: 32px;
+}
+@media screen and (min-width: 768px) {
+  .ms_jumbotron {
+    padding: 48px 0;
+  }
+
+}

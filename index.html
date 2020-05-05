@@ -1,26 +1,29 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 <head>
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+  <meta charset="utf-8">
+  <title> Bootstrap Freelancer </title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
   <link rel="stylesheet" href="css/style.css">
-  <meta charset="utf-8">
-  <title>Bootstrap Freelancer</title>
 </head>
-<body>
-
+  <body>
   <header>
+
     <!-- barra di navigazione -->
     <div class="ms_navbar">
       <div class="container">
         <div class="row">
+
           <!-- colonna logo -->
           <div class="col-xs-6">
             <h2>START BOOTSTRAP</h2>
           </div>
+
           <!-- colonna navigazione -->
           <div class="col-xs-6 text-right">
+
             <!-- nav desktop -->
             <nav class="hidden-xs">
               <ul class="list-inline">
@@ -29,21 +32,27 @@
                 <li>contact</li>
               </ul>
             </nav>
+            <!-- fine nav desktop -->
+
             <!-- burger menu  -->
             <div class="ms_burger-menu visible-xs-block">
               <i class="fas fa-bars burger-icon"></i>
             </div>
-          </div>
+            <!-- fine burger menu  -->
 
+          </div>
+          <!-- fine colonna di navigazione -->
         </div>
+        <!-- fine row -->
       </div>
+      <!-- fine container -->
     </div>
-  </div>
+    <!-- fine nav bar -->
 </header>
 
 <main>
   <!-- jumbotron -->
-  <section id="jumbotron "class="ms_jumbotron ms_primary">
+  <section id="jumbotron" class="ms_jumbotron ms_primary">
     <div class="container">
       <div class="row">
         <div class="col-xs-12">
@@ -62,59 +71,64 @@
 
   <!-- portfolio -->
   <section id="portfolio" class="ms_section ms_secondary">
+    <!-- intro -->
     <div class="ms_intro">
       <h2>PORTFOLIO</h2>
       <div class="ms_divider">
         <i class="fas fa-star star-intro"></i>
       </div>
     </div>
+
     <div class="container">
       <div class="row">
-
+        <!-- immagine 1 -->
         <div class="col-xs-12 col-md-6 col-lg-4">
           <div class="ms_item-portfolio">
-            <img src="img/cabin.png" alt="cabin">
+            <img src="img/cabin.png" alt="cabin" class="img-rounded">
           </div>
         </div>
 
+        <!-- immagine 2-->
         <div class="col-xs-12 col-md-6 col-lg-4">
           <div class="ms_item-portfolio">
-            <img src="img/cake.png" alt="cabin" class="img-rounded">
-
+            <img src="img/cake.png" alt="cake" class="img-rounded">
           </div>
         </div>
 
+        <!-- immagine 3-->
         <div class="col-xs-12 col-md-6 col-lg-4">
           <div class="ms_item-portfolio">
-            <img src="img/circus.png" alt="cabin"class="img-rounded">
-
+            <img src="img/circus.png" alt="circus" class="img-rounded">
           </div>
         </div>
 
+        <!-- immagine 4-->
         <div class="col-xs-12 col-md-6 col-lg-4">
           <div class="ms_item-portfolio">
-            <img src="img/game.png" alt="cabin"class="img-rounded">
-
+            <img src="img/game.png" alt="game" class="img-rounded">
           </div>
         </div>
 
+        <!-- immagine 5-->
         <div class="col-xs-12 col-md-6 col-lg-4">
           <div class="ms_item-portfolio">
-            <img src="img/safe.png" alt="cabin"class="img-rounded">
-
+            <img src="img/safe.png" alt="safe" class="img-rounded">
           </div>
         </div>
 
+        <!-- immagine 6-->
         <div class="col-xs-12 col-md-6 col-lg-4">
           <div class="ms_item-portfolio">
-            <img src="img/submarine.png" alt="cabin"class="img-rounded">
-
+            <img src="img/submarine.png" alt="submarine" class="img-rounded">
           </div>
         </div>
+
       </div>
+      <!-- fine row -->
     </div>
+    <!-- fine container -->
   </section>
-  <!-- about -->
+  <!-- section about -->
   <section id="about" class="ms_section ms_primary">
     <div class="ms_wrapper-60">
       <!-- intro -->
@@ -127,15 +141,18 @@
       <!-- fine intro -->
       <div class="container-fluid">
         <div class="row">
+
           <!-- colonna sinistra -->
           <div class="col-xs-12 col-md-6">
             <div class="ms_about-text">
-              <p> Freelancer is a free bootstrap theme created by Start Bootstrap.
+              <p>
+                Freelancer is a free bootstrap theme created by Start Bootstrap.
                 The download includes the complete source file including HTML, CSS,
                 and JavaScript as well as optional LESS stylesheets for easy customization.
               </p>
             </div>
           </div>
+
           <!-- colonna destra -->
           <div class="col-xs-12 col-md-6">
             <div class="ms_about-text">
@@ -147,13 +164,18 @@
           </div>
         </div>
       </div>
+      <!-- button download -->
       <div class=" text-center">
         <a class="ms_btn ms_btn-green ms_btt-border-green" href="#" role="button"><i class="fas fa-download"> Download</i></a>
       </div>
     </div>
+    <!-- fine wrapper -->
   </section>
+  <!-- fine section about -->
+
+
   <!-- section form -->
-  <section id="form" class="ms_section ms_secondary">
+  <section id="forms" class="ms_section ms_secondary">
     <!-- intro -->
     <div class="ms_intro">
       <h2>CONTACT ME</h2>
@@ -163,32 +185,88 @@
     </div>
     <!-- fine intro -->
     <div class="ms_wrapper-60 ">
+      <!-- inizio form -->
       <form>
+        <!-- input name -->
         <div class="form-group ms_form-border">
-          <label for="name" class="sr-only">Name</label>
+          <label  class="sr-only">Name</label>
           <input type="text" class="form-control ms_input-no-border" id="name" placeholder="Name">
         </div>
+
+        <!-- input email -->
         <div class="form-group">
-          <label for="Email Address" class="sr-only">Email Address</label>
+          <label  class="sr-only">Email Address</label>
           <input type="email" class="form-control ms_input-no-border" id="Email" placeholder="Email Address">
         </div>
+
+        <!-- input phone -->
         <div class="form-group">
-          <label for="phone" class="sr-only">phone number</label>
+          <label class="sr-only">phone number</label>
           <input type="tel" class="form-control ms_input-no-border" id="number" placeholder="Phone Number">
         </div>
+
+        <!-- textarea message -->
         <div class="form-group">
-          <label for="message" class="sr-only">Message</label>
+          <label  class="sr-only">Message</label>
           <textarea class="form-control ms_input-no-border" rows="10" placeholder="Message"></textarea>
         </div>
+        <!-- button send -->
         <button type="button" class="ms_btn btn btn-success">Send</button>
+      </form>
+      <!-- fine form -->
+      </div>
+    </section>
+    <!-- fine section forms -->
+  </main>
+  <!-- fine main -->
+  <footer>
+    <div class="ms_section-footer text-center">
+      <div class="container">
+        <div class="row">
+
+          <!-- colonna 1 -->
+          <div class="col-xs-12 col-md-4">
+            <address>
+              <h3>LOCATION</h3>
+              2215 John Daniel Drive Clark, MO <br>
+              54243<br>
+            </address>
+          </div>
+
+          <!-- colonna 2 -->
+          <div class="col-xs-12 col-md-4">
+            <h3>AROUND THE WEB</h3>
+            <div class="ms_social">
+              <ul class="list-inline">
+                <li><i class="fab fa-facebook-f"></i></li>
+                <li><i class="fab fa-twitter"></i></li>
+                <li><i class="fab fa-google-plus-g"></i></li>
+                <li><i class="fab fa-linkedin-in"></i></li>
+              </ul>
+            </div>
+          </div>
+          <!-- colonna 3 -->
+          <div class="col-xs-12 col-md-4">
+            <h3>ABOUT FREELANCER</h3>
+            <p>
+              Freelance is a free to use, open source Bootstrap theme created
+              by <strong class="ms_strong-primary">Start Bootrap</strong>
+            </p>
+
+          </div>
+
+          </div>
+
+
+
+
+        </div>
 
       </div>
 
-    </section>
-  </main>
-
-  <footer></footer>
+    </div>
 
 
+  </footer>
 </body>
 </html>

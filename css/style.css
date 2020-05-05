@@ -1,7 +1,8 @@
 /* regole base */
 body {
-  padding-top: 0;
-
+  padding-top: 0px;
+  margin-top: 0px;
+  font-size: 16px;
 }
 .ms_wrapper-60 {
   max-width: 60%;
@@ -10,12 +11,17 @@ body {
 
 /* regole generali */
 h1 {
-  font-size: 4em;
+  font-size: 56px;
 }
 
 a {
   text-decoration: none;
   color: white;
+}
+
+
+h3{
+  font-size: 24px;
 }
 .ms_section h1,h2,h3,h4 {
   font-weight: 500;
@@ -32,10 +38,15 @@ a {
 .ms_secondary .star-intro {
   color: #2c3e50;
 }
+
 .ms_input-no-border {
     border: 0;
    outline: 0;
    border-bottom: 1px solid lightgrey;
+}
+
+.ms_strong-primary {
+  color: #08b99d;
 }
 input::placeholder,
 textarea::placeholder {
@@ -57,7 +68,7 @@ textarea::placeholder {
 .ms_primary .ms_divider::after {
   content: "";
   display: inline-block;
-  width: 70px;
+  width: 130px;
   height: 4px;
   background-color:#fff;
   position: relative;
@@ -68,7 +79,7 @@ textarea::placeholder {
 .ms_secondary .ms_divider::after {
   content: "";
   display: inline-block;
-  width: 70px;
+  width: 130px;
   height: 4px;
   background-color: #2c3e50;
   position: relative;
@@ -78,7 +89,7 @@ textarea::placeholder {
 /* fine divider bar */
 
 
-/* section */
+/* SECTION */
 .ms_primary {
   background-color: #1abc9c;
   color: #fff;
@@ -95,9 +106,8 @@ textarea::placeholder {
   padding: 24px 0;
 }
 
-
 .ms_about-text {
-  margin-bottom: 40px 0;
+  margin-bottom: 40px;
 }
 /* download btn */
 .ms_btt-border-green{
@@ -112,11 +122,7 @@ textarea::placeholder {
   background-color: #efc84a;
   color: white;
 }
-
-/* regole base */
-
-
-/* header */
+/* HEADER */
 .ms_navbar {
   background-color: #2c3e50;
   color: white;
@@ -127,48 +133,75 @@ textarea::placeholder {
   font-size: 1.4em;
 }
 .ms_intro h2 {
-  font-size: 2.7em;
+  font-size: 48px;
 }
 .ms_avatar img {
   max-height: 250px;
 }
-
 /* MAIN */
 
-/* jumbotron */
+/* Jumbotron */
 .ms_jumbotron {
   text-transform: uppercase;
   padding: 32px 0;
   text-align: center;
 }
 
-/*portfolio */
+/* Portfolio */
 
 .ms_item-portfolio img{
-  max-height: 450px;
+  max-height: 100%;
   width: 100%;
   margin-bottom: 30px;
   /* border-radius: 10px; */
 }
 
-/*  about */
-.ms_about-text p {
-  font-size: 1.2em;
+/* About */
+p {
+  font-size: 22px;
 }
-/* about */  /* IDEA: da valutare */
+/* About */  /* IDEA: da valutare */
 .ms_about-text{
   margin-bottom: 40px;
 }
 
-/* form */
+/* Form */
 
 
-/* FINE MAIN */
+
+/* FOOTER */
+.ms_section-footer {
+  padding-top: 40px;
+  background-color: #37536d;
+  color:#fff;
+}
+
+.ms_social i {
+  border: 1px solid white;
+  padding: 1.2em;
+  border-radius: 50%;
+  font-size: .9em;
+
+}
+.ms_section-footer h3{
+}
 
 
-/* footer */
-/* media query */
+
+
+
+/* Media Query */
 @media screen and (min-width: 768px) {
+  *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  body {
+    padding-top: 0;
+    margin-top: 0;
+  }
+
   .ms_jumbotron {
     padding: 48px 0;
   }

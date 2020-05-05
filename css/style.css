@@ -30,13 +30,45 @@ a {
   border-radius: 4px;
 }
 
-/* .star-intro::after {
- content: "\002D";
-font-size: 25em;
-} */
+.ms_secondary .star-intro {
+  color: #2c3e50;
+}
 
+/* divider bar */
+.ms_divider {
+  width: max-content;
+  margin: 0 auto;
+}
 
+.ms_divider i {
+  margin: 15px;
+  font-size: 2.1em;
+  /* color: #2c3e50; */
+}
 
+.ms_primary .ms_divider::before,
+.ms_primary .ms_divider::after {
+  content: "";
+  display: inline-block;
+  width: 70px;
+  height: 4px;
+  background-color:#fff;
+  position: relative;
+  top: -9px;
+  border-radius: 4px;
+}
+.ms_secondary .ms_divider::before,
+.ms_secondary .ms_divider::after {
+  content: "";
+  display: inline-block;
+  width: 70px;
+  height: 4px;
+  background-color: #2c3e50;
+  position: relative;
+  top: -9px;
+  border-radius: 4px;
+}
+/* fine divider bar */
 
 
 /* section */
@@ -56,9 +88,7 @@ font-size: 25em;
   padding: 24px 0;
 }
 
-.ms_secondary .star-intro {
-  color: #2c3e50;
-}
+
 .ms_about-text {
   margin-bottom: 40px 0;
 }
@@ -80,7 +110,6 @@ font-size: 25em;
   color: white;
   line-height: 60px;
   text-transform: uppercase;
-
 }
 .ms_navbar h2 {
   font-size: 1.4em;
@@ -93,6 +122,7 @@ font-size: 25em;
 }
 
 /* MAIN */
+
 /* jumbotron */
 .ms_jumbotron {
   text-transform: uppercase;
@@ -101,7 +131,7 @@ font-size: 25em;
 }
 
 /*portfolio */
-/* da cancellare */
+
 .ms_item-portfolio img{
   max-height: 450px;
   width: 100%;
@@ -109,7 +139,7 @@ font-size: 25em;
   border-radius: 10px;
 }
 
-/* about */
+/* about */  /* IDEA: da valutare */
 .ms_about-text{
   margin-bottom: 40px;
 }
